@@ -20,7 +20,7 @@ const JournalPrompt: React.FC<JournalPromptProps> = ({ onYes, onNo }) => {
       }}
     >
       <p className="p-2 flex items-center">
-        <BiEditAlt className="mr-2" />
+        <BiEditAlt style={{marginLeft: "15px"}} />
         Are you Adding journal for Today?
       </p>
 
