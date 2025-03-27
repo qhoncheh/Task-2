@@ -8,18 +8,18 @@ interface JournalPromptProps {
 const JournalPrompt: React.FC<JournalPromptProps> = ({ onYes, onNo }) => {
   return (
     <div
-      className="p-4 border border-gray-500 rounded-xl flex flex-col  items-center justify-center h-screen mx-auto w-fit"
+      className="border border-gray-500 rounded-xl flex flex-col  items-center justify-center h-screen mx-auto w-fit"
       style={{
-        padding: "5px",
+        padding: "2px",
         display: "flex",
         width: "750px",
         border: "1px solid gray",
-        height: "70px",
+        height: "50px",
         borderRadius: "14px",
         margin: "auto",
       }}
     >
-      <p className="mb-4 p-2 flex items-center">
+      <p className="p-2 flex items-center">
         <BiEditAlt className="mr-2" />
         Are you Adding journal for Today?
       </p>

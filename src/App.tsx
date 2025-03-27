@@ -1,4 +1,3 @@
-
 import  { useState } from "react";
 import JournalPrompt from "./components/JournalPrompt";
 import GroupSelection from "./components/GroupSelection";
@@ -22,5 +21,4 @@ function App() {
   );
 }
 
-
-  export default App;
+export default App;
