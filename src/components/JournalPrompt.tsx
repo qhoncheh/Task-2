@@ -24,7 +24,7 @@ const JournalPrompt: React.FC<JournalPromptProps> = ({ onYes, onNo }) => {
         Are you Adding journal for Today?
       </p>
 
-      <div className="flex justify-around gap-4 px-8 mt-8">
+      <div className="flex justify-around gap-4 px-8 mr-8 mt-8">
         <button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 rounded mt-2"
           onClick={onYes}
